@@ -1,40 +1,58 @@
 # Relatório Técnico - Entrega Parcial
 
-**Data:** 11/04/2025
+**Data:** 13/05/2025
 **Versão:** 1.0
 **Equipe:**
 
-- [Nome do Membro 1] - [Papel/Responsabilidade]
-- [Nome do Membro 2] - [Papel/Responsabilidade]
-- [Nome do Membro n] - [Papel/Responsabilidade]
+- [Daniel Oliveira Farias] - [Desenvolvedor]
+- [Emanuel Souza] - [Scrum master]
+- [Gabriel de Freitas] - [P.O]
+- [Gabriel Erick] - [Desenvolvedor]
+- [João Vitor Rossi] - [Vice scrum master]
+- [Victor Rodrigues] - [Desenvolvedor]
+  
 
 ## 1. Resumo Executivo
 
-[Resumo conciso do projeto, progresso atual e principais conquistas]
+-Atualmente no nosso projeto estamos realizando a prototipação, um grande passo que demos no projeto foi o diagrama de classes e finalizar as historias de usuário.
 
 ## 2. Introdução
 
 ### 2.1 Objetivo do Projeto
 
-[Descrição dos objetivos gerais e específicos do projeto]
+-O obetivo do projeto seria realizar um atendimento online para substituir a recepção do hospital, assim vendo qual o grau de prioridade do paciente e gerando uma senha para a triagem.
 
 ### 2.2 Escopo
 
-[Descrição do escopo do projeto]
+-O foco do nosso projeto e ser utilizado por qualquer tipo de pessoa pois ele será auto explicativo, para auxiliar e agilizar o atendimento que seria feito na recepção.
 
 ### 2.3 Metodologia
 
-[Descrição da metodologia utilizada]
+-No nosso projeto estamos utilizando a Metodologia ágil, para tornar nosso desenvolvimento mais eficiente e objetivo, para isso, dividimos nossa organização em sprints e atividades para cada membro do grupo, onde o foco é de forma rapida e ágil entregarmos semanalmente avanços no projeto.
 
 ## 3. Análise de Requisitos
 
 ### 3.1 Requisitos Funcionais
 
-[Descrição dos requisitos funcionais identificados]
+- Eu como Stackeholder quero que o sistema possua um banco de dados que suporte mais 1.000 usuários para que a maior parte de pessoas consiga se registrar.
+- Eu como desenvolvedor quero que as senhas dos usuário sejam criptografadas com tecnologia bcrypt para proteger as informações dos usuários.
+- Eu como paciente quero que o sistema esteja disponivel 24 horas por dia para que eu consiga ter acesso a ele sempre que necessário.
+- Eu como paciente quero que as informações do sistema se conectem com as do P.A.
+- Eu como paciente quero visualizar a fila de espera no hospital.
+- Eu como paciente quero ter uma confirmação imediata de que deu certo meu atendimento.
+- Eu como paciente quero uma interface de aplicativo em que eu possa tomar decisões em uma tela com poucos botões e poucos textos para que eu não me perca.
+- Eu como paciente quero cadastrar minhas informações logo quando instalo o app.
+- Eu como paciente quero registrar a minha entrada no upa com o widget.
+- Eu como usuário idoso quero usar o sistema por voz.
+- Eu como usuário idoso quero botões que tenham ícones que mostram a funcionalidade do botão.
+- Eu como paciente quero agendar meu atendimento pelo celular antes de chegar lá.
 
 ### 3.2 Requisitos Não Funcionais
 
-[Descrição dos requisitos não funcionais identificados]
+-Eu como paciente quero que o sistema esteja disponivel 24 horas por dia para que eu consiga ter acesso a ele sempre que necessário.
+-Eu como paciente quero que a transição de telas seja até 2 segundos para reduzir o máximo possível o tempo do meu atendimento.
+-Eu como desenvolvedor quero que as senhas dos usuário sejam criptografadas com tecnologia bcrypt para proteger as informações dos usuários.
+-Eu como Stackeholder quero que o sistema possua um banco de dados que suporte mais 1.000 usuários para que a maior parte de pessoas consiga se registrar.
 
 ### 3.3 Matriz de Rastreabilidade
 
@@ -48,11 +66,23 @@
 
 ### 4.2 Diagramas
 
-[Principais diagramas arquiteturais e de design]
 
 ### 4.3 Decisões de Design
 
-[Descrição das principais decisões de design e suas justificativas]
+-Interface simples
+Optamos por um visual limpo, com poucos botões e linguagem clara, como “Agendar Consulta” ou “Fazer Check-in”. Assim, o paciente entende logo o que fazer.
+
+-Acessível para todos
+Pensamos na acessibilidade com contraste de cores, letras grandes, ícones e suporte para leitores de tela, pensando especialmente em idosos e pessoas com deficiência.
+
+-Funciona em vários dispositivos
+O sistema pode ser usado nos totens do hospital ou no celular e computador, facilitando o acesso mesmo antes de chegar ao hospital.
+
+-Integração com o sistema do hospital
+Tudo que o paciente preenche vai direto para o sistema interno, agilizando o atendimento e evitando retrabalho.
+
+-Menos fila, mais agilidade
+Com esse sistema, o paciente resolve boa parte do processo sozinho, o que ajuda a diminuir as filas e o tempo de espera.
 
 ### 4.4 Protótipos
 
@@ -130,7 +160,7 @@
 
 ## 11. Conclusão
 
-[Conclusão parcial sobre o andamento do projeto]
+-Podemos concluir parcialmente que temos pronto o diagrama de classes, historias de usuários e o github esta ajustado segundo os padrões implementados pelo professor.
 
 ## 12. Anexos
 
